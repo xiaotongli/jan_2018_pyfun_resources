@@ -32,10 +32,10 @@ def reverse_me(text):
 
     return reversed_string
 
-# if __name__ == '__main__':
-import doctest
-doctest.testmod()
-print("I ran the file directly")
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
+    print("I ran the file directly")
 
     # manual testing
     # print(reverse_me("abc"))
